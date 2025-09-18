@@ -97,14 +97,14 @@ export function About() {
   // 기본 데이터
   const defaultInfo = {
     title: "소개",
-    subtitle: "당신의 전문성과 열정을 소개해주세요.",
+    subtitle: "아름다움을 찍는 사진가입니다.",
     background: {"image":"","video":"","color":"","opacity":0.1},
-    experienceCards: [{"icon":"briefcase","title":"회사명","period":"2020 - 현재","description":"직무 및 역할"},{"icon":"graduation","title":"학교명","period":"2016 - 2020","description":"전공 및 학위"},{"icon":"award","title":"자격증/수상","period":"2021","description":"설명을 입력하세요"}],
-    skills: [{"icon":"code","title":"프론트엔드 개발","description":"React, TypeScript, Next.js를 활용한 모던 웹 개발"},{"icon":"database","title":"백엔드 개발","description":"Node.js, Python, 데이터베이스 설계 및 구현"},{"icon":"palette","title":"UI/UX 디자인","description":"사용자 중심의 인터페이스 디자인"}],
+    experienceCards: [{"icon":"briefcase","title":"GC녹십자웰빙","period":"2025","description":"QA Operation"},{"icon":"briefcase","title":"SK바이오사이언스","period":"2021 - 2023","description":"QA Validation"},{"icon":"graduation","title":"안동과학대학교","period":"2019 - 2021","description":"의약품질분석과"}],
+    skills: [{"icon":"camera","title":"사진 보정","description":"포토샵, 라이트룸 중급 이상 사용 가능"},{"icon":"camera","title":"사진 촬영","description":"결혼식 본식 사진 촬영 경험"},{"icon":"palette","title":"디자인","description":"캠페인 배너 제작 경험, 포스터 및 배너 제작 가능"}],
     storyTitle: "나의 이야기",
-    story: ["저는 기술을 통해 사람들의 삶을 더 편리하고 의미 있게 만드는 일에 열정을 가지고 있습니다.","다양한 프로젝트를 통해 문제 해결 능력과 창의적인 사고를 키워왔으며, 팀원들과의 협업을 통해 함께 성장하는 가치를 배웠습니다.","앞으로도 지속적인 학습과 도전을 통해 더 나은 개발자가 되기 위해 노력하겠습니다."],
-    storyImage: "",
-    hobbies: ["📚 독서","☕ 카페 투어","🎨 전시회 관람","✈️ 여행"]
+    story: ["아름다움을 아시나요?","풍경과 사물의 아름다움만 알고 있었던 저는 지인 결혼식 본식 사진 촬영 및 보정을 경험하며 모든 사람들에게 아름다움이 존재한다는 것을 알게 되었습니다.","하지만 많은 사람들이 본연의 아름다움을 깨닫지 못하고 살아갑니다.","저는 그 아름다움을 찾아, 선물해드리고 싶습니다."],
+    storyImage: "/uploads/about-image-1758184761293.jpeg",
+    hobbies: ["🎨 전시회 관람","✈️ 여행","📸 사진","🎵 음악 감상","🍳 요리","✍️ 글쓰기","☕ 카페 투어"]
   }
   
   const [aboutInfo, setAboutInfo] = useState(defaultInfo)

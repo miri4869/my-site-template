@@ -13,17 +13,12 @@ export function Projects() {
   const { getData, saveData, isEditMode, saveToFile } = useInlineEditor()
   // 기본 데이터
   const defaultInfo = {
-    title: "프로젝트",
-    subtitle: "프로젝트",
+    title: "사진",
+    subtitle: "결혼식 본식 촬영 사진",
     initialDisplay: 6,
     loadMoreCount: 3,
-    background: {
-      image: "",
-      video: "",
-      color: "",
-      opacity: 0.1
-    },
-    projects: [] as Array<{ image: string; video?: string; title: string; description: string }>
+    background: {"image":"","video":"","color":"","opacity":0.1},
+    projects: [{"image":"/uploads/project-1758184812351-1758184812374.jpeg","video":"","title":"지인 결혼식 본식 촬영","description":"전/후 입니다."},{"image":"/uploads/project-1758184835366-1758184835381.jpeg","video":"","title":"지인 결혼식 본식 촬영","description":"전/후 입니다."},{"image":"/uploads/project-1758184861768-1758184861797.png","video":"","title":"지인 결혼식 본식 촬영","description":"전/후 입니다."},{"image":"/uploads/project-1758184883849-1758184883870.jpg","video":"","title":"지인 결혼식 본식 촬영","description":"후/전 입니다."},{"image":"/uploads/project-1758184904653-1758184904672.jpg","video":"","title":"지인 결혼식 본식 촬영","description":"후/전 입니다."},{"image":"/uploads/project-1758184924787-1758184924810.jpg","video":"","title":"지인 결혼식 본식 촬영","description":"후/전 입니다."}] as Array<{ image: string; video?: string; title: string; description: string }>
   }
 
   const [projectsInfo, setProjectsInfo] = useState(defaultInfo)

@@ -33,14 +33,14 @@ export function Hero() {
   const { getData, saveData, isEditMode, saveToFile, saveFieldToFile } = useInlineEditor()
   
   // 초기 데이터 - 배열 형태로 변경
-  const defaultSocialLinks = [{"name":"Instagram","icon":"instagram","url":"https://instagram.com/username"},{"name":"YouTube","icon":"youtube","url":"https://youtube.com/@username"}]
+  const defaultSocialLinks = [{"name":"Instagram","icon":"instagram","url":"https://instagram.com/_c1oud_o"},{"name":"Email","icon":"mail","url":"alfl8352@naver.com"}]
   
   const defaultInfo = {
     greeting: "안녕하세요,",
-    name: "당신의 이름",
-    title: "프론트엔드 개발자",
-    description: "창의적인 아이디어로 웹 경험을 디자인합니다.",
-    profileImage: "",
+    name: "조미리",
+    title: "포토그래퍼",
+    description: "아름다운 모든 것들을 찍습니다.",
+    profileImage: "/uploads/hero-profile-1758184162421.jpg",
     background: {"image":"","video":"","color":"","opacity":0.1},
     projectButton: "프로젝트 보기"
   }
